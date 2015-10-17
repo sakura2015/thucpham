@@ -1,0 +1,129 @@
+#admin-header {
+	direction: ltr;
+	color: #ccc;
+	font: 400 13px/32px "Open Sans",sans-serif;
+	height: 32px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	min-width: 600px;
+	z-index: 99999;
+	background: #222;
+}
+#admin-top .info {
+	width: 160px;
+	float: right;
+}
+#admin-top .children-a {
+	display: none;
+}
+#admin-top .btn-default {
+	color: #eee !important;
+	background-color: #222 !important;
+	border-color: #222 !important;
+}
+#admin-top .btn {
+	 border: none !important; 
+	 padding: 6px 6px 6px 8px !important; 
+	 border-radius: 0 !important; 
+}
+#admin-top .admin-title {
+	width: 200px;
+	float: left;
+}
+#admin-top .glyphicon  {
+	padding-left: 4px;
+	padding-right: 8px;
+}#admin-top .open  {
+	background: #5b5a5a;
+}
+.dropdown-menu {
+	position: absolute;
+	top: 100%;
+	left: -90px !important;
+	z-index: 1000;
+	display: none;
+	float: left;
+	min-width: 160px;
+	padding: 5px 0;
+	margin: 2px 0 0;
+	list-style: none;
+	font-size: 14px;
+	background-color: #fff;
+	border: none !important;
+	border: none !important;
+	border-radius: 0 !important;
+	-webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+	box-shadow: 0 6px 12px rgba(0,0,0,.175);
+	background-clip: padding-box;
+}
+#admin-left {
+	background: url('../img/bg-admin-left.png') repeat;
+	height: 550px;
+}
+.clear {
+	clear: both;
+	margin-top: 32px;
+}
+.panel-default {
+	border-color: #ddd !important;
+}
+.panel {
+	border: 0px solid transparent !important;
+	border-radius: 0px !important;
+}
+#admin-left{
+	padding-right: 0 !important;
+}
+#admin-left ul{
+	padding:0;
+}
+#admin-left ul li {
+	list-style: none;
+}
+#admin-left ul li a {
+	text-decoration: none;
+	color: #eee !important;
+	font-size: 13px;
+}
+#admin-left .panel-default>.panel-heading {
+	color: white !important;
+	background-color: #222 !important;
+	border-color: none !important;
+}
+#admin-left .panel-heading {
+	border-top-right-radius: 0 !important;
+	border-top-left-radius: 0 !important;
+}
+#admin-left .panel-heading a {
+	text-decoration: none !important;
+	color: #eee !important;
+}
+#admin-left .panel-body {
+	background: #333333;
+}
+#admin-left .panel-group .panel-heading+.panel-collapse .panel-body {
+	border-top: none !important;
+}
+#admin-left .glyphicon {
+	padding-right: 6px;
+}
+.panel-default>.panel-heading {
+	border-color: 0 !important;
+}
+.btn-info a {
+	text-decoration: none !important;
+	color: white !important;
+}
+.btn-info {
+	float: left !important;
+}
+#OrderAdminIndexForm {
+	width: 83px;
+	float: left;
+	margin-left: 20px;
+}
+.btn-default a {
+	text-decoration: none;
+}
